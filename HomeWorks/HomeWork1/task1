@@ -1,0 +1,12 @@
+#Task namber 1
+name = 'Alex'
+print(name)
+
+namber = 1
+print(namber)
+
+print('Введите ваше имя')
+name = input()
+print('Введите ваше возраст')
+age = input()
+print('Вас зовут {0}. Вам {1} лет.'.format(name, age))
