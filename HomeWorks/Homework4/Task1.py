@@ -5,4 +5,4 @@ def salary(hours, rate_per_hour, premium):
     return (hours * rate_per_hour) + premium
 
 
-print('Ваш доход с учетом премии:', salary(8*5*4, 500, 5000), 'р.', sep='')
+print('Ваш доход в месяц с учетом премии:', salary(8*21, 350, 5000), 'р.', sep='')
