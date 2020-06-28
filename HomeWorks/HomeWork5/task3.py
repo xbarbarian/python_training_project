@@ -12,7 +12,7 @@ with open('List_workers.txt') as l_workers:
     for i in my_list:
         i = i.split()
         if int(i[1]) < 20000:
-            min_salary.append(i[1])
+            min_salary.append(i[0])
         average_salary.append(i[1])
 print(f'{min_salary} - {sum(map(int,average_salary))/len(average_salary)}')
 
